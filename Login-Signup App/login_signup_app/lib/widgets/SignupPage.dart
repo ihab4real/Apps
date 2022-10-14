@@ -1,3 +1,5 @@
+// ignore_for_file: file_names, depend_on_referenced_packages
+
 import 'dart:math';
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';
@@ -87,6 +89,7 @@ class _SignupPageState extends State<SignupPage> {
                           border: InputBorder.none,
                           prefixIcon: Icon(Icons.person)),
                       keyboardType: TextInputType.emailAddress,
+                      textInputAction: TextInputAction.next,
                     ),
                   ),
                   const SizedBox(
